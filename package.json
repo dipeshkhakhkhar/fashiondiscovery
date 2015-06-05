@@ -1,0 +1,30 @@
+{
+  "name": "fashiondiscoveryapp",
+  "version": "1.0.0",
+  "description": "Fashion Discovery Platform which shows pinterest like board with fashion items. Each item shows the title, author, image and description trucated to 32 words",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.10.2",
+    "express": "^4.11.1",
+    "mongojs": "^0.18.1",
+    "jquery": "^2.1.4",
+    "express": "^4.12.4",
+    "masonry-layout": "^3.3.0",
+    "bson": "^0.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dipeshkhakhkhar/fashiondiscovery.git"
+  },
+  "author": "Dipesh Khakhkhar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dipeshkhakhkhar/fashiondiscovery/issues"
+  },
+  "homepage": "https://github.com/dipeshkhakhkhar/fashiondiscovery"
+}

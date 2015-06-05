@@ -1,0 +1,41 @@
+<!DOCTYPE>
+<html ng-app="myApp">
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+  <title>Fashion Discovery Platform</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+  <div class="container" ng-controller="AppCtrl">
+    <h1>Fashion Discovery Dashboard</h1>
+
+  <div id="container"  >
+        
+        <div ng-repeat="item in itemlist" class="item well span4">
+          <p class="title">{{item.title}}</p>
+          <h4 class="muted">By {{item.author}}</h4>
+          <div><img src="images/img1.png"</img></div>
+          <!--<div><img src="{{item.thumbnail_url}}"</img></div> -->
+          <div class="blurb">{{item.blurb | truncate:32}}<a href="http://{{item.details_url}}" target="_blank">Read more</a></div>
+        </div>
+  </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.12/angular.min.js"></script>
+<script src="controllers/controller.js"></script>
+<script src="scripts/masonry.pkgd.min.js"></script>
+<script src="scripts/imagesloaded.pkgd.min.js"></script>
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/jquery.masonry.min.js"></script>
+<script src="scripts/jquery.infinitescroll.min.js"></script>
+<script src="scripts/ng-infinite-scroll.min.js"></script>
+
+</body>
+</html>
