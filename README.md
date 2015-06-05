@@ -30,7 +30,8 @@ from your MongoDB directory.
 Run the following command to import test data into itemlist collections in mongodb 
 
 cd to fashiondiscovery directory
-	mongoimport --db itemlist --collection itemlist --type csv --headerline --file data/test/fasdis.csv 
+
+    mongoimport --db itemlist --collection itemlist --type csv --headerline --file data/test/fasdis.csv 
 	
 Once you know that data is imported. Start the application by running the following command
   node server
