@@ -36,4 +36,7 @@ cd to fashiondiscovery directory
 Once you know that data is imported. Start the application by running the following command
   node server
 
+Then to see the fashiondisovery dashboard please go to
+
+http://localhost:3000
 
